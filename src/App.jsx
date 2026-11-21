@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import profileImage from './assets/profile.jpg';
+import profileImage from './assets/profile_me.jfif';
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -128,7 +128,7 @@ function App() {
             </div>
           </div>
           <p className={`text-xs text-center mt-3 ${textSub}`}>
-            (Ajoutez vos photos Before/After ici)
+            
           </p>
         </div>
 
